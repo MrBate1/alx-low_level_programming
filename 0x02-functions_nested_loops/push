@@ -1,0 +1,5 @@
+read -p "enter commit message :  " c_msg
+echo $c_msg
+git add .
+git commit -m $c_msg
+git push
