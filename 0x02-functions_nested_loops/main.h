@@ -1,12 +1,6 @@
-#include <stdio.h>
+#ifndef main_h
+#define main_h
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+int _putchar(char);
 
-int main(void)
-{
-	return (0);
-}
+eodif:
