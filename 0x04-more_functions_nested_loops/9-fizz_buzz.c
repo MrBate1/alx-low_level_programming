@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - multiples of three print Fizz instead of the number and for the multiples of five print Buzz
+ * main - x3 fizz x5 buzz
  *
  * Return: void
  */
