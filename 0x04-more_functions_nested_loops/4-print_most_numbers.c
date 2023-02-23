@@ -1,23 +1,22 @@
 #include "main.h"
 
 /**
- *print_most_numbers- prints numbers 1 -9 execpt 2 and 4
- *@i: integer variable
- *Return: void
+ * print_most_numbers - prints 0 - 9 except 2, 3
+ * Description: prints
+ * Return: void
  */
 
 void print_most_numbers(void)
 {
-	int i = 0;
+	int a = 0;
 
-	while (i <= 9)
+	while (a <= 9)
 	{
-		if (i != 2 && i != 4)
+		if (a != 2 && a != 4)
 		{
-			_putchar(i + '0');
+			_putchar(a + '0');
 		}
-
-		i++;
+		a++;
 	}
 	_putchar('\n');
 }
